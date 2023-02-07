@@ -2,7 +2,7 @@
 val scan = java.util.Scanner(System.`in`)
 fun main(args: Array<String>) {
     val startCommand = scan.next()
-    if (startCommand != "/start" || startCommand != "/help") {
+    if (startCommand != "/start" || startCommand != "/help" || startCommand != "/end") {
         println("Вы ввели не корректную комманду, наберите /help  для вывода списка комманд")
         scan.next()
     }
