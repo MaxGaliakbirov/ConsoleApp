@@ -1,8 +1,8 @@
-
+import TextValue.START_INFO
 
 fun main(args: Array<String>) {
     println("Для начала работы введите комманду /start.")
-
+    println(START_INFO)
     val input = readLine()?.split(" ")?.toTypedArray()
     val command = input?.get(0)
     val carColor = input?.get(1)
